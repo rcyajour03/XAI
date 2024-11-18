@@ -42,6 +42,30 @@ Copy code
 pip install -r requirements.txt
 
 
+## Architecture
+
+The Explainable AI-Based Disease Prediction System is designed to accurately predict
+diseases while ensuring the interpretability of its decisions. The process begins with data
+pre-processing, where raw data is cleaned by handling missing values, removing outliers,
+and normalizing the features. The dataset is then divided into a training set (80%)
+and a testing set (20%) for model evaluation. To optimize performance, the feature
+selection technique Elastic Net which combines Lasso (L1 regularization), and Ridge (L2
+regularization) is applied to identify the most relevant features. The system incorporates
+n-fold cross-validation to validate the model using different splits of the dataset, ensuring
+robust evaluation. The machine learning models Deep Neural Networks (DNN), Random
+Forest, Support Vector Machines (SVM), and K-Nearest Neighbors (KNN) are tested and
+hyperparameters are fine-tuned to maximize accuracy. For interpretability, the system
+employs five Explainable AI (XAI) techniques viz., Decision Trees, SHAP (SHapley
+Additive Explanations), LIME (Local Interpretable Model-Agnostic Explanations), and
+the Explainable Boosting Algorithm to provide clear insights into model predictions. The
+system allows users to input their data, generates a disease prediction, and offers an
+explanation for the outcome, ensuring trust and transparency. The output is a front-end
+dashboard that is developed for healthcare professionals and general public to interact
+with the system, view predictions, and understand the model’s reasoning through visual
+and textual explanations.
+
+![Database](https://github.com/user-attachments/assets/bc4f9a55-552b-4402-8bc4-5735404b8843)
+
 
 ## Model Performance Results
 
