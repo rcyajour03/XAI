@@ -18,11 +18,18 @@ streamlit run main.py
 Application Interface Screenshots
 Here are a few screenshots of the application interface:
 
-Homepage:
+Homepage:![image](https://github.com/user-attachments/assets/1766facc-812e-4712-ab4a-debfd78c246e)
 
-Sidebar:
+
+Sidebar:![image](https://github.com/user-attachments/assets/6a9c571b-3c82-49db-899c-c7bcf72296ba)
+
 
 Results Panel:
+
+![Screenshot 2024-11-18 151146](https://github.com/user-attachments/assets/1746afb0-1fb4-45e9-ac4a-a0057de15878)
+
+![image](https://github.com/user-attachments/assets/1594953e-654b-43d5-b3e5-9e6d25ddf19f)
+
 
 Requirements
 Ensure you have the following installed:
@@ -35,11 +42,6 @@ bash
 Copy code
 pip install -r requirements.txt
 
-
-Outputs:
-![Screenshot 2024-11-18 151146](https://github.com/user-attachments/assets/1746afb0-1fb4-45e9-ac4a-a0057de15878)
-
-![image](https://github.com/user-attachments/assets/1594953e-654b-43d5-b3e5-9e6d25ddf19f)
 
 
 ## Model Performance Results
