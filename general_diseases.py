@@ -4,8 +4,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score
 
-# data = pd.read_csv("venv\data\GeneralTraining.csv")
-# diseases = 
+# data = pd.read_csv("XAI_Assistant_ML\data\GeneralTraining.csv")
+
 
 # def all_diseases():
 #     data = pd.read_csv("venv\data\GeneralTraining.csv")

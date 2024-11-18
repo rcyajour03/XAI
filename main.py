@@ -154,6 +154,24 @@ elif option == "Alzheimer":
 elif option == "Diabetes":
     st.title("Diabetes Prediction")
 
+    # Create a DataFrame with feature information
+    info = pd.DataFrame({
+        "Feature": ["Pregnancies", "Glucose", "BloodPressure", "SkinThickness", "Insulin", 
+                    "BMI", "DiabetesPedigreeFunction", "Age", "Outcome"],
+        "Description": ["Number of pregnancies", 
+                        "Plasma glucose concentration (mg/dL) after a 2-hour oral glucose tolerance test", 
+                        "Diastolic blood pressure (mm Hg)", 
+                        "Triceps skinfold thickness (mm)", 
+                        "2-hour serum insulin (mu U/ml)", 
+                        "Body mass index (weight in kg/(height in m)^2)", 
+                        "Diabetes pedigree function (likelihood of diabetes based on family history)", 
+                        "Age in years", 
+                        "Diabetes outcome (1 = positive, 0 = negative)"]
+    })
+
+    # Display the table in Streamlit
+    st.table(info)
+
     col1, col2, col3 = st.columns(3)
 
     with col1:
